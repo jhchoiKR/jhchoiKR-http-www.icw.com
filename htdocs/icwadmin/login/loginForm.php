@@ -35,7 +35,7 @@
                         var json = JSON.parse(data);
 
                         if (json.code == 200) {
-                            location.href = "/wvmadmin/dashboard/index.php";
+                            location.href = "/icwadmin/dashboard/index.php";
                         } else {
                             alert(json.msg);
                         }

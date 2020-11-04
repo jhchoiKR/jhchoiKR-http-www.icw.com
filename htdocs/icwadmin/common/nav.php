@@ -28,13 +28,13 @@ switch ($_arrUrl[2]) {
 }
 ?>
 <div class="logo">
-    <a href="/wvmadmin/dashboard/index.php">
+    <a href="/icwadmin/dashboard/index.php">
         <h5>관리자</h5>
     </a>
 </div>
-<a class="nav-link <?=$_aClass[0];?>" href="/wvmadmin/dashboard/index.php">대시보드</a>
-<a class="nav-link <?=$_aClass[1];?>" href="/wvmadmin/admin/list.php">관리자 관리</a>
+<a class="nav-link <?=$_aClass[0];?>" href="/icwadmin/dashboard/index.php">대시보드</a>
+<a class="nav-link <?=$_aClass[1];?>" href="/icwadmin/admin/list.php">관리자 관리</a>
 <div class="user">
     <h6><?=SE_NM;?>님</h6>
-    <a class="nav-link" href="/wvmadmin/login/logout.php">로그아웃</a>
+    <a class="nav-link" href="/icwadmin/login/logout.php">로그아웃</a>
 </div>

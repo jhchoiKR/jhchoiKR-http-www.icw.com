@@ -1,2 +1,2 @@
 <?php
-header('Location:/wvmadmin/login/loginForm.php');
+header('Location:/icwadmin/login/loginForm.php');
